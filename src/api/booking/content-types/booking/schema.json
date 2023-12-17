@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Bookings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "integer"
+    },
+    "service": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "hours": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "float"
+    },
+    "aircon_type": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "text"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}
